@@ -9,6 +9,7 @@ const App = () => {
   const addNewTodo = async (value) => {
     try {
       // Call the API end point and send data
+      //ok
       const res = await axios.post(
         'https://todo-list-ady.herokuapp.com/api/v1/todos',
         {
