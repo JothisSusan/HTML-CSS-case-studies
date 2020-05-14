@@ -1,0 +1,26 @@
+.AddTodo {
+    border: 2px solid var(--primary);
+    padding: 10px;
+    border-radius: 20px;
+  }
+  
+  .AddTodo h3 {
+    text-align: center;
+  }
+  
+  .AddTodo form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .AddTodo form input {
+    margin-bottom: 10px;
+  }
+  
+  .AddTodo .error {
+    color: red;
+    padding-left: 16px;
+    margin-bottom: 10px;
+    margin-top: -5px;
+    font-size: 0.9em;
+  }
